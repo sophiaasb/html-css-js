@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(171, 198, 255);
+    background: linear-gradient(white, lightblue);
 }
 
 h1{
@@ -20,10 +20,11 @@ p{
     margin: auto;
     text-align: justify;
 }
-
+    
 img{
     height: 200px;
 }
+
 #caixa{
     width: fit-content;
     margin: auto;
