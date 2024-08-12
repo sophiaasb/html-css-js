@@ -2,5 +2,32 @@ h1{
     font-size: 65px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #040499;
+    color: darkblue;
+}
+
+hr{
+    width: 50%;
+    height: 10px;
+    background: darkblue;
+}
+
+p{
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+}
+
+img{
+    height: 200px;
+}
+#caixa{
+    width: fit-content;
+    margin: auto;
+}
+
+.jitsu{
+    height: 200px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
 }
