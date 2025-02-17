@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    background: url('/images/01.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    width:500px;
+    background:rgba(255, 255, 255, 0.404);
+    border-radius:8px;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.relogio div{
+    background: rgba(252, 252, 252, 0.411);
+    color:rgba(2, 0, 0, 0.678);
+    height:150px;
+    width:150px;
+    border-radius:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio span{
+    font-size:80px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
