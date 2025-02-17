@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    background: url('/images/scenario.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.sonic{
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 1370px;
+    animation: movimento 1s infinite;
+}
+
+@keyframes movimento{
+    0%{
+        left: 0;
+        top: 490px;
+        scale: 100%;
+        opacity: 100%;
+    }
+
+    100%{
+        left: 1370px;
+        top: 440px;
+        scale: 200%;
+        opacity: 20%;
+    }
+}
