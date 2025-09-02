@@ -1,0 +1,35 @@
+/* root */
+
+:root{
+    --ash_green: #8C8A70;
+    --vanilla: #D9CFA0;
+    --rotten_vanilla: #BFB78E;
+    --moss_green: #261D01;
+    --not_so_black: #0D0000;
+}
+
+body{
+    height: 100vh;
+    background: url('/images/the-walking-dead-2560x1440-15719.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    color: var(--moss_green);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding: 24px 32px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(140, 138, 112, 0.85);
+    box-shadow: 0 8px 32px rgba(13, 0, 0, 0.6);
+    border: 1px solid var(--rotten_vanilla);
+    text-shadow: 1px 1px 4px var(--not_so_black)
+
+}
